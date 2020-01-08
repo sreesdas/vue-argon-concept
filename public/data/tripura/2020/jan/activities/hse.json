@@ -1,0 +1,9 @@
+{
+  "headers": [
+    { "text": "Parameter", "value": "param" },
+    { "text": "Month under Review", "value": "current" },
+    { "text": "Previous", "value": "previous" },
+    { "text": "YTD", "value": "ytd" }
+  ],
+  "params": []
+}

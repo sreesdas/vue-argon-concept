@@ -1,0 +1,22 @@
+{
+  "headers": [
+    { "text": "Parameter", "value": "param2" },
+    { "text": "Month under Review", "value": "current" },
+    { "text": "Previous", "value": "previous" },
+    { "text": "YTD", "value": "ytd" }
+  ],
+  "params": [
+    {
+      "param2": "NPT & Actions for reducing NPT",
+      "current": 3.69,
+      "previous": 4.38,
+      "ytd": 0
+    },
+    {
+      "param2": "Rigs & other resource planning for next 2 years",
+      "current": 0,
+      "previous": 0,
+      "ytd": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "headers": [
+    { "text": "Parameter Level 2", "value": "param2" },
+    { "text": "Month under Review", "value": "current" },
+    { "text": "Previous", "value": "previous" },
+    { "text": "YTD", "value": "ytd" }
+  ],
+  "params": [
+    {
+      "param2": "Reason for more/ less production",
+      "current": "",
+      "previous": "",
+      "ytd": ""
+    },
+    {
+      "param2": "Status of previous actions planned to ramp up production",
+      "current": "Most of the actions plan related to monetization of potential development wells and sick wells have been carried out.",
+      "previous": 0,
+      "ytd": 0
+    },
+    {
+      "param2": "Additional actions planned for increasing production",
+      "current": "Implemented ASP project in Viraj field; Expected to get incremental gain from this field. Many steps are being taken / to be taken to minimise the ceasure rate. Three Exploratory wells in S kadi field are going to be drilled and it is expected to get some exploratory success from this field. ",
+      "previous": 0,
+      "ytd": 0
+    },
+    {
+      "param2": "Actions for reducing gas flaring",
+      "current": "Undertaken fresh gas tendering for 3300 SCMD gas ex-Gamij. New customer expected to take gas by Jul-19 end. [+] Additional gas allocation (50% additional volume .i.e. 2250 SCMD) completed for additional gas ex-Kolavada to the lone customer. Also, communication has been sent to the customer to agree for further additional gas supply at 1.5 times the contract price. Reply from the customer is awaited. [+] Case for fresh gas tendering for 8750 SCMD ex-Nawagam GGS-I is under approval. ",
+      "previous": 0,
+      "ytd": 0
+    }
+  ]
+}

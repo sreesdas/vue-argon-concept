@@ -42,29 +42,50 @@
           <div class="col-xl-3">
             <stat-card
               icon="mdi-water"
-              iconcolor="yellow darken-2"
-              kpi="oil_production"
+              iconcolor="yellow darken-3"
+              kpi="og/oil_production"
+              unit="TPD"
+              :ticker="true"
             ></stat-card>
           </div>
           <div class="col-xl-3">
             <stat-card
               icon="mdi-weather-windy"
               iconcolor="teal"
-              kpi="gas_production"
+              kpi="og/gas_production"
+              unit="MMSCMD"
+              :ticker="true"
             ></stat-card>
           </div>
           <div class="col-xl-3">
             <stat-card
               icon="mdi-gas-station"
               iconcolor="red darken-2"
-              kpi="gas_sale"
+              kpi="og/gas_sale"
+              unit="MMSCMD"
+              :ticker="true"
             ></stat-card>
           </div>
           <div class="col-xl-3">
             <stat-card
               icon="mdi-swap-horizontal-circle"
-              iconcolor="yellow darken-4"
-              kpi="rf"
+              iconcolor="cyan"
+              kpi="og/rf"
+            ></stat-card>
+          </div>
+          <div class="col-xl-3">
+            <stat-card
+              icon="mdi-fire"
+              iconcolor="orange"
+              kpi="og/gas_flaring"
+            ></stat-card>
+          </div>
+          <div class="col-xl-3">
+            <stat-card
+              icon="mdi-waves"
+              iconcolor="blue lighten-2"
+              kpi="og/water_injection"
+              unit="m3/day"
             ></stat-card>
           </div>
         </div>
@@ -103,7 +124,7 @@
         <div class="col-xl-7">
           <div class="card shadow-sm">
             <div class="card-body">
-              <bar-chart kpi="rf" title="RECONCICIATION FACTOR"></bar-chart>
+              <bar-chart kpi="rf" title="RECONCILIATION FACTOR"></bar-chart>
             </div>
           </div>
         </div>
@@ -131,17 +152,7 @@ import ActivityTable from "../components/ActivityTable";
 export default {
   name: "home",
   data: () => ({
-    assets: [
-      "Ahmedabad",
-      "Ankleshwar",
-      "Assam",
-      "Bokaro",
-      "Cambay",
-      "Cauvery",
-      "Jorhat",
-      "Rajahmundry",
-      "Tripura"
-    ],
+    assets: ["Ahmedabad", "Tripura"],
     months: [
       "Jan",
       "Feb",
@@ -156,7 +167,7 @@ export default {
       "Nov",
       "Dec"
     ],
-    years: ["2018", "2019", "2020", "2021"]
+    years: ["2018", "2019", "2020"]
   }),
   components: {
     StatCard,
@@ -173,7 +184,8 @@ export default {
   background: #f8f9fe;
 }
 .gradient-background {
-  background: linear-gradient(87deg, #5e72e4, #825ee4) !important;
+  /* background: linear-gradient(87deg, #5e72e4, #825ee4) !important; */
+  background: linear-gradient(to right, #4568dc, #b06ab3);
 }
 .stat-card-container {
   padding-top: 30px;
